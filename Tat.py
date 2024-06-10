@@ -19,12 +19,12 @@ def local_css(file_name):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Updated the CSS file path
-local_css(r"\style\style.css")
+local_css("/style/style.css")
 
 lottie_code = load_lottieurl("https://lottie.host/f4e1ee57-7e70-4a2f-9d43-095e13dcfc3a/dIhexjlzjO.json")
 
 # Define the path to the image
-image_path = r"\images\img 1.PNG"
+image_path = "/images/img 1.PNG"
 
 # Initialize img_lottie_animation to None
 img_lottie_animation = None
