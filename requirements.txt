@@ -1,4 +1,4 @@
-Pillow
+Pillow==1.0.0
 requests
 streamlit
 streamlit-lottie
